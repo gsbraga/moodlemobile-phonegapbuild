@@ -1,0 +1,606 @@
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2322">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2322">Type &#039;Element&#039; is not assignable to type &#039;HTMLElement&#039;.
+  Property &#039;accessKey&#039; is missing in type &#039;Element&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/addon/qtype/ddmarker/classes/ddmarker.ts">src/addon/qtype/ddmarker/classes/ddmarker.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="295"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-comment">// Create and add the marker text.</span></td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="296"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-keyword"><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">t</span></span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">N</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">m</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">=</span> <span class="hljs-string">'markertext markertext'</span> + dropZoneNo,</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="297"></td>
+<td class="ion-diagnostic-blob-code">    span = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'span'</span>);</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2322">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2322">Type &#039;Element&#039; is not assignable to type &#039;HTMLElement&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/addon/qtype/ddmarker/classes/ddmarker.ts">src/addon/qtype/ddmarker/classes/ddmarker.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="297"></td>
+<td class="ion-diagnostic-blob-code">                span = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'span'</span>);</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="298"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="299"></td>
+<td class="ion-diagnostic-blob-code">            span.className = classNames;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2322">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2322">Type &#039;LocalNotifications | LocalNotificationsMock&#039; is not assignable to type &#039;LocalNotifications&#039;.
+  Type &#039;LocalNotificationsMock&#039; is not assignable to type &#039;LocalNotifications&#039;.
+    Types of property &#039;on&#039; are incompatible.
+      Type &#039;(eventName: string, callback: any) =&gt; void&#039; is not assignable to type &#039;(eventName: string) =&gt; Observable&lt;any&gt;&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/emulator.module.ts">src/core/emulator/emulator.module.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="155"></td>
+<td class="ion-diagnostic-blob-code">useFactory: (platform: Platform): Network =&gt; {</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="156"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-comment"><span class="ion-diagnostics-error-chr">/</span><span class="ion-diagnostics-error-chr">/</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">U</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr">f</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">m</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">d</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">f</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">C</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">A</span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">P</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">v</span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">d</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">v</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">u</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">d</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">d</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">.</span></span></td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="157"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-keyword">return</span> platform.is(<span class="hljs-string">'cordova'</span>) ? <span class="hljs-keyword">new</span> Network() : <span class="hljs-keyword">new</span> NetworkMock();</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2415">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2415">Class &#039;LocalNotificationsMock&#039; incorrectly extends base class &#039;LocalNotifications&#039;.
+  Types of property &#039;on&#039; are incompatible.
+    Type &#039;(eventName: string, callback: any) =&gt; void&#039; is not assignable to type &#039;(eventName: string) =&gt; Observable&lt;any&gt;&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="27"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="28"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-comment">// Variab<span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">f</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">d</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">b</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">s</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">.</span></span></td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="29"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-keyword">protected</span> DESKTOP_NOTIFS_TABLE = <span class="hljs-string">'desktop_local_notifications'</span>;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="229"></td>
+<td class="ion-diagnostic-blob-code">    }</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="230"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="231"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-comment">/**</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="230"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="231"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-comment">/**</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="232"></td>
+<td class="ion-diagnostic-blob-code">     * Get a notification object.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="231"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-comment">/**</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="232"></td>
+<td class="ion-diagnostic-blob-code"> * Get a notification obj<span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">c</span>t.</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="233"></td>
+<td class="ion-diagnostic-blob-code"> *</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="231"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-comment">/**</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="232"></td>
+<td class="ion-diagnostic-blob-code"> * Get a notification object.</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="233"></td>
+<td class="ion-diagnostic-blob-code"> *</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="234"></td>
+<td class="ion-diagnostic-blob-code">* @param {<span class="hljs-built_in">any</span>} notificationId The id of the notification to <span class="hljs-keyword">get</span>.</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="235"></td>
+<td class="ion-diagnostic-blob-code">* @returns {Promise&lt;<span class="ion-diagnostics-error-chr">I</span><span class="ion-diagnostics-error-chr">L</span>ocalNotification&gt;}</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="236"></td>
+<td class="ion-diagnostic-blob-code">*<span class="hljs-regexp">/</span></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="234"></td>
+<td class="ion-diagnostic-blob-code">* @param {<span class="hljs-built_in">any</span>} notificationId The id of the notification to <span class="hljs-keyword">get</span>.</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="235"></td>
+<td class="ion-diagnostic-blob-code">* @returns {Promise&lt;ILocalNotification&gt;}</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="236"></td>
+<td class="ion-diagnostic-blob-code">*<span class="hljs-regexp">/</span></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="485"></td>
+<td class="ion-diagnostic-blob-code">        notification[key] = <span class="hljs-keyword">this</span>.defaults[key];</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="486"></td>
+<td class="ion-diagnostic-blob-code">    }</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="487"></td>
+<td class="ion-diagnostic-blob-code">}</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="489"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="490"></td>
+<td class="ion-diagnostic-blob-code">        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">n</span>otification) {</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="491"></td>
+<td class="ion-diagnostic-blob-code">            <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">this</span>.defaults.hasOwnProperty(key)) {</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="489"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="490"></td>
+<td class="ion-diagnostic-blob-code">        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> notification) {</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="491"></td>
+<td class="ion-diagnostic-blob-code">            <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">this</span>.defaults.hasOwnProperty(key)) {</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="490"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> notification) {</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="491"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-keyword">if</span> (!<span class="hljs-keyword">this</span>.def<span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">u</span>lts.hasOwnProperty(key)) {</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="492"></td>
+<td class="ion-diagnostic-blob-code">        <span class="hljs-keyword">delete</span> notification[key];</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="629"></td>
+<td class="ion-diagnostic-blob-code">                    <span class="hljs-keyword">this</span>.storeNotification(notification, <span class="hljs-literal">true</span>);</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="630"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="631"></td>
+<td class="ion-diagnostic-blob-code">                    <span class="hljs-comment">// Launch the trigger event.</span></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="635"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-keyword">const</span> interval = <span class="hljs-keyword">this</span>.parseInterval(notification.every);</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="636"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-keyword">if</span> (interval &gt; <span class="hljs-number">0</span>) {</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="637"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-keyword">this</span>.scheduled[notification.id].interval = setInterval(trigger, interval);</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;every&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="647"></td>
+<td class="ion-diagnostic-blob-code">    }</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="648"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="649"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-comment">/**</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;every&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="648"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="649"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-comment">/**</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="650"></td>
+<td class="ion-diagnostic-blob-code">     * Store a notification <span class="hljs-keyword">in</span> local DB.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2345">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2345">Argument of type &#039;{ body: string | string[]; }&#039; is not assignable to parameter of type &#039;NotificationOptions&#039;.
+  Types of property &#039;body&#039; are incompatible.
+    Type &#039;string | string[]&#039; is not assignable to type &#039;string&#039;.
+      Type &#039;string[]&#039; is not assignable to type &#039;string&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/core/emulator/providers/local-notifications.ts">src/core/emulator/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="728"></td>
+<td class="ion-diagnostic-blob-code">*</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="729"></td>
+<td class="ion-diagnostic-blob-code">* @param {<span class="hljs-built_in">string</span>} eventName Name of the event. Events: schedule, t<span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">g</span><span class="ion-diagnostics-error-chr">g</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">,</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">k</span><span class="ion-diagnostics-error-chr">,</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">u</span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">d</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">,</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">,</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">r</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">,</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">,</span><span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">a</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">c</span><span class="ion-diagnostics-error-chr">e</span><span class="ion-diagnostics-error-chr">l</span><span class="ion-diagnostics-error-chr">a</span>ll</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="730"></td>
+<td class="ion-diagnostic-blob-code">* @param {<span class="hljs-built_in">any</span>} callback Call back <span class="hljs-function"><span class="hljs-keyword">function</span>.</span></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;CoreILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/providers/local-notifications.ts">src/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="270"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-keyword">if</span> (component) {</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="271"></td>
+<td class="ion-diagnostic-blob-code">    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.observables[component]) {</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="272"></td>
+<td class="ion-diagnostic-blob-code">        <span class="hljs-keyword">this</span>.observables[component].next(data);</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/providers/local-notifications.ts">src/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="405"></td>
+<td class="ion-diagnostic-blob-code">* @param {CoreILocalNotification} notification Notification to schedule. Its ID should be lower than <span class="hljs-number">10000000</span> and it should</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="406"></td>
+<td class="ion-diagnostic-blob-code">*                       <span class="ion-diagnostics-error-chr"> </span><span class="ion-diagnostics-error-chr"> </span>                     be unique inside its component and site.</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="407"></td>
+<td class="ion-diagnostic-blob-code">* @param {<span class="hljs-built_in">string</span>} component Component triggering the notification. It is used to generate unique IDs.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;ILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/providers/local-notifications.ts">src/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="405"></td>
+<td class="ion-diagnostic-blob-code">* @param {CoreILocalNotification} notification Notification to schedule. Its ID should be lower than <span class="hljs-number">10000000</span> and it should</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="406"></td>
+<td class="ion-diagnostic-blob-code">*                                              be u<span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">i</span>que inside its component and site.</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="407"></td>
+<td class="ion-diagnostic-blob-code">* @param {<span class="hljs-built_in">string</span>} component Component triggering the notification. It is used to generate unique IDs.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2345">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2345">Argument of type &#039;string | string[]&#039; is not assignable to parameter of type &#039;string&#039;.
+  Type &#039;string[]&#039; is not assignable to type &#039;string&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/providers/local-notifications.ts">src/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="481"></td>
+<td class="ion-diagnostic-blob-code">            <span class="hljs-keyword">this</span>.showNotificationPopover(notification);</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="482"></td>
+<td class="ion-diagnostic-blob-code">        }</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="483"></td>
+<td class="ion-diagnostic-blob-code"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2339">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2339">Property &#039;at&#039; does not exist on type &#039;CoreILocalNotification&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/var/www/html/apps/moodlemobile2/src/providers/local-notifications.ts">src/providers/local-notifications.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="499"></td>
+<td class="ion-diagnostic-blob-code">undefined</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="500"></td>
+<td class="ion-diagnostic-blob-code">undefined</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
